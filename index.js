@@ -109,10 +109,13 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. If this is globally binded, it will show the window object.
+  2. if this is implicitly binded it will be binded to whatever is left of the dot,
+  normally this is just the object
+  3. if this is new binded with a constructor function, it will point to the new 
+  object that is made.
+  4. if this is explicitly binded with .call or .apply, it will inherit whatever the new
+  object is
 */
 
 
